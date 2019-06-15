@@ -1,1 +1,0 @@
-mysqldump -uroot -p laravel_54 > laravel_54.sql
