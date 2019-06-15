@@ -1,0 +1,281 @@
+.type-1315{
+    @color-text: #515666;
+    @color-hover: #f9a11b;
+
+    font-size:14px;
+    margin:0;
+    font-family: poppins ,sans-serif;
+    line-height:1.428571429;
+    color:@color-text;
+    background-color:#f3f3f9;
+    line-height:24px;
+
+
+    footer{
+
+        display:block;
+
+        a{
+            background-color:transparent;
+            color:@color-text;
+            text-decoration:none;
+        }
+        a:active,a:hover{
+            outline:0
+        }
+
+        a:hover,a:focus{
+            color:@color-hover;
+            text-decoration:none;
+        }
+        a:focus{
+            outline:thin dotted;
+            outline:5px auto -webkit-focus-ring-color;
+            outline-offset:-2px;
+        }
+    }
+
+    .wrap-footer{
+        .widget-title{
+            color:@color-hover;
+            font-size:22px;
+            text-transform:uppercase;
+            position:relative;
+            margin-bottom:60px;
+        }
+        .widget-title::after{
+            content:'';
+            width:30px;
+            height:3px;
+            position:absolute;
+            left:0;
+            bottom:-15px;
+            background:@color-hover;
+        }
+        .widget{
+            color:@color-text;
+        }
+    } 
+
+
+    .main-footer::before{
+        content:"";
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        background:rgba(255,255,255,.9)
+    }
+
+    .main-footer{
+        background:rgba(255,255,255,.8);
+        color:#fff;
+        position:relative;
+        background-size:cover;
+        background-position:center center;
+
+        .wigetized{
+            padding:60px 0 15px
+        }
+        ul{
+            padding:0;
+            list-style: none;  
+        }
+        ul.contact-info{
+            margin-top:23px
+        }
+        ul.contact-info li{
+            margin-bottom:10px
+        }
+        ul.contact-info li i{
+            width:32px;
+            height:32px;
+            background:#f9c477;
+            text-align:center;
+            line-height:32px;
+            margin-right:15px;
+            color:#fff;
+            font-size:15px;
+            -webkit-border-radius:50%;
+            border-radius:50%;
+            -webkit-box-shadow:inset 0 0 5px 3px rgba(0,0,0,.1);
+            box-shadow:inset 0 0 5px 3px rgba(0,0,0,.1)
+        }
+        ul.open-info{
+            max-width:220px
+        }
+        ul.open-info li{
+            line-height:40px;
+            border-bottom:1px solid #e5e5f8;
+            padding:0
+        }
+        ul.open-info li:last-child{
+            border-bottom:none
+        }
+    }
+
+
+    .widget:first-child{
+        margin-top:0
+    }
+
+    .widget{
+        margin-top:30px;
+        clear:both;
+        ul{
+            list-style:none;
+            padding:0;
+            margin:0;
+        }
+        ul li{
+            padding-bottom:10px;
+        }
+        ul li a{
+            font-size:14px;
+            line-height:24px;
+            position:relative
+        }
+        ul li a:before{
+            width:5px;
+            height:5px;
+            background-color:#e5e5f8;
+            position:absolute;
+            top:9px;
+            left:-14px;
+            content:'';
+            -webkit-border-radius:50%;;
+            border-radius:50%;
+        }
+        ul li a:hover:before{
+            background-color:@color-hover
+        }
+        ul li:last-child{
+            padding-bottom:0
+        }
+
+        .foot_content{
+            margin-bottom: 20px;
+        }
+
+        .foot_content .rp-thumbnail img{
+            width: 100%;
+        }
+
+        .foot_content .property-status{
+            font-size: 12px;
+        }
+        .foot_content a{
+            font-weight: bold;
+        }
+    }
+
+    .wigetized .widget_nav_menu ul li{
+        padding-bottom:0
+    }
+    .wigetized .widget_nav_menu ul li a{
+        line-height:36px;
+        -webkit-transition:all .4s ease 0s;
+        -o-transition:all .4s ease 0s;
+        transition:all .4s ease 0s
+    }
+    .wigetized .widget_nav_menu ul li a:before{
+        content:none
+    }
+
+    // CoppyRight
+    .copyright{
+        .copyright-content{
+            display:inline-block
+        }
+        .copyright-text{
+            float:left
+        }
+        .copyright-social{
+            float:right
+        }
+        .copyright-social a{
+            margin-left:13px
+        }
+        .copyright-social a i{
+            font-size:18px;
+            color:#d4d8e8
+        }
+        .copyright-social a:hover i{
+            color:@color-hover
+        }
+        .text-primary{
+            color:@color-hover
+        }
+    } 
+
+
+    footer.wrap-footer #tag_cloud-2{
+        margin-top:0
+    }
+    footer.footer_2 #tag_cloud-2{
+        display:none
+    }
+
+    .bar-content{
+        position:relative;
+        background:#fff;
+        padding:28px 0
+    }
+
+    @media(max-width:767px){
+        footer{
+            font-size: 12px;
+        }
+        .main-footer .wigetized{
+            padding:15px 0;
+        }
+        .wrap-footer .widget-title{
+            margin-bottom:30px;
+            font-size: 18px;
+        }
+        .copyright .copyright-content{
+            display:block;
+            text-align:center;
+            float:none
+        }       
+    }
+
+    @media(max-width:450px){
+        footer{
+            font-size: 10px;
+        }
+        .wrap-footer .widget-title{
+            margin-bottom:30px;
+            font-size: 16px;
+        } 
+        .widget{
+            ul li a{
+                font-size:12px;
+                line-height:24px;
+                position:relative
+            }
+            .foot_content .rp-thumbnail img{
+                width: 100%;
+
+            }
+        }
+    }
+
+
+    @media(max-width:991px){
+        .main-footer .clear-item{
+            clear:both;
+        }
+        .widget .foot_content img{
+            width: 90%;
+
+        }
+    }
+
+    @font-face{
+        font-family: 'poppins';
+        src: url("../fonts/Poppins-Medium.ttf");
+    }
+
+}

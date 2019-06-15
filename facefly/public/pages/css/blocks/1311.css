@@ -1,0 +1,106 @@
+.type-1311 {
+  background: #f3f3f9;
+}
+.type-1311 .our-left .oul {
+  color: #f9a11b;
+  float: left;
+  margin-top: 0px;
+  margin-right: 10px;
+  font-weight: 550;
+}
+.type-1311 .our-left .oul1 {
+  color: #1F5589;
+  font-weight: 550;
+}
+.type-1311 .our-left p {
+  margin-left: 70px;
+}
+.type-1311 .our-right {
+  float: right;
+  margin-top: -72px;
+}
+.type-1311 .our-right .fa {
+  width: 50px;
+  height: 50px;
+  background: #1F5589;
+  color: #fff;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.type-1311 .our-right a:hover .fa {
+  width: 50px;
+  height: 50px;
+  background: #f9a11b;
+  color: #fff;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-top: 10px;
+  -webkit-transform-origin: 0%;
+  transform-origin: 0%;
+  -webkit-transition-property: transform;
+  transition-property: tranform;
+  -webkit-tramsform: skewX(45deg) scaleX(1);
+  transform: skewX(45deg) scaleX(1);
+  -webkit-transition: all .4s ease-out 0s;
+  transition: all .4s ease-out 0s;
+}
+.type-1311 .img-text {
+  margin-top: -5px;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  background: #fff;
+  color: #000;
+}
+.type-1311 .img-text a i {
+  opacity: 0;
+}
+.type-1311 .img-text:hover {
+  background: #fff;
+  text-align: center;
+  width: 100%;
+  margin-top: -2px;
+  padding: 5px 5px auto;
+  position: absolute;
+  overflow: hidden;
+  color: blue;
+  -webkit-transition: all .5s ease-in 0s;
+  -moz-transition: all .5s ease-in 0s;
+  transition: all .5s ease-in 0s;
+}
+.type-1311 .img-text:hover .name a {
+  text-decoration: none;
+  color: #000;
+}
+.type-1311 .img-text:hover .social a i {
+  text-align: center;
+  opacity: 1;
+  background: #1F5589;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 501%;
+  padding-top: 5px;
+  margin-top: 20px;
+}
+.type-1311 .img-text:hover .social a i:hover {
+  text-align: center;
+  opacity: 1;
+  background: #f9a11b;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 501%;
+  padding-top: 5px;
+  margin-top: 20px;
+}
+.type-1311 .slide-show {
+  margin-right: 10px;
+}
+@media (max-width: 374px) {
+  .type-1311 .our-left .fa {
+    width: 10px;
+    height: 10px;
+  }
+}
